@@ -1,6 +1,17 @@
 #contact{
-    background:var(--red);
+    background:var(--green);
+    position:fixed;
+    bottom:0;
 }
-h2{
-    color:white;
+#contact h2{
+    color:var(--black);
+}
+#contact p {
+    margin:0;
+}
+#contact .btn{
+    background: var(--yellow);
+}
+#contact a{
+    background:blue;
 }

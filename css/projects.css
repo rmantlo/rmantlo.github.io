@@ -1,0 +1,54 @@
+#projects h1{
+    margin: 50px;
+    font-family: var(--font-two);
+}
+
+.row{
+    background: var(--grey);
+    border:5px solid var(--black);
+    border-radius:20px;
+}
+.col,.col-6{
+    
+    background: var(--grey);
+    border-radius:20px;
+    
+}
+p{
+    text-align:center;
+    color: var(--white);
+    font-family: var(--font-three);
+}
+#project1{
+    text-decoration-line: none;
+}
+#project1Hover{
+    background-image:  url('../assets/img/CSSCreature.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--yellow);
+    border-radius: 20px;
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin:0;
+    width: 80%;
+    height: 80%;
+    
+}
+#project1Hover:hover{
+    background-color:black;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    text-align:center;
+    text-decoration-line: none;
+}
+#project1Hover h3{
+    display:none;
+}
+#project1Hover:hover h3{
+    display: block;
+    color: var(--black);
+    font-weight: bold;
+}
+

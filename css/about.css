@@ -1,0 +1,40 @@
+.about{
+    background: var(--white);
+    margin:0;
+    
+    position: relative;
+    overflow:auto;
+    
+}
+.about h1{
+    text-align: center;
+    margin:50px;
+    font-family: var(--font-two);
+}
+.sidePic{
+    width:40%;
+    float: left;
+    
+}
+img{
+    width:300px;
+    height:auto;
+    margin:0px 100px 100px 100px;
+    border:5px solid var(--yellow);
+}
+.aboutInfo{
+    width: 60%;
+    float:right;
+    
+}
+.aboutInfo h3{
+    text-align: center;
+    margin: 50px;
+    font-family: var(--font-two);
+}
+.about p{
+    color: var(--black);
+    margin: 0px 0px 30px 0px;
+    text-align: left;
+    font-family: var(--font-three);
+}
