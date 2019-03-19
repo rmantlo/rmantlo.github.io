@@ -5,10 +5,12 @@
 
 .row{
     background: var(--grey);
-    border:5px solid var(--black);
-    border-radius:20px;
+    border:5px solid var(--green);
+    padding:10px;
+    text-align: center;
+    height: 400px;
 }
-.col,.col-6{
+.col-4{
     
     background: var(--grey);
     border-radius:20px;
@@ -19,36 +21,82 @@ p{
     color: var(--white);
     font-family: var(--font-three);
 }
-#project1{
+#project{
     text-decoration-line: none;
 }
-#project1Hover{
-    background-image:  url('../assets/img/CSSCreature.png');
-    background-size: cover;
+
+#project1{
+    background-image:  url('../assets/img/API.png');
+    background-size: 100% 300px;
     background-repeat: no-repeat;
     border: 5px solid var(--yellow);
-    border-radius: 20px;
     text-align:center;
     display: inline-block;
     position: relative;
-    margin:0;
-    width: 80%;
-    height: 80%;
+    margin:30px 0 0 0;
+    width: 85%;
+    height: 300px;
     
 }
-#project1Hover:hover{
-    background-color:black;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-    text-align:center;
-    text-decoration-line: none;
-}
-#project1Hover h3{
+
+#project1 h3{
     display:none;
+    margin:125px 0 0 0;
 }
-#project1Hover:hover h3{
+#project1:hover h3{
     display: block;
-    color: var(--black);
+    color: var(--white);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+#project2{
+    background-image:  url('../assets/img/webpage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--yellow);
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin:30px 0 0 0;
+    width: 85%;
+    height: 300px;
+    
+}
+
+#project2 h3{
+    display:none;
+    margin:125px 0 0 0;
+}
+#project2:hover h3{
+    display: block;
+    color: var(--white);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+#project3{
+    background-image:  url('../assets/img/CSSCreature.png');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    border: 5px solid var(--yellow);
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin:30px 0 0 0;
+    width: 85%;
+    height: 300px;
+    
+}
+
+#project3 h3{
+    display:none;
+    margin:125px 0 0 0;
+}
+#project3:hover h3{
+    display: block;
+    color: var(--white);
+    text-shadow: 2px 2px 2px black;
     font-weight: bold;
 }
 
