@@ -2,16 +2,18 @@
     margin:40px 0px 0px 0px;
     background: url('../assets/img/beach-clouds-dawn-788434.jpg') center bottom;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     color:var(--white);
 }
 .display-4{
     font-family: var(--font-one);
-    font-size: 150px;
-    padding:100px 0px 100px 0px;
+    font-size: 14vh;
+    padding: 5vh 0 11vh 0;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 .lead{
     font-family: var(--font-two);
-    font-size: 40px;
+    font-size: 4vh;
+    text-shadow: 1px 1px 1px black;
 }

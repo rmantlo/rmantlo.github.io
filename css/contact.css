@@ -11,7 +11,19 @@
 }
 #contact .btn{
     background: var(--yellow);
+    color: black;
 }
 #contact a{
     background:blue;
+}
+.card.card-body {
+    height: 600px;
+}
+
+.row-contact{
+    background: var(--grey);
+    border-top:5px solid var(--green);
+    padding:10px;
+    text-align: center;
+
 }

@@ -22,7 +22,7 @@
   <!--NavBar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3A4E48;">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,31 +48,33 @@
     <h1 style="text-align: center">Projects</h1>
     <div class="container">
       <div class="row">
-        <div class="col-4 col1">
 
+        <div class="col-4 col1">
           <a id='project' href="https://amiibodirectoryapi.firebaseapp.com/" target='blank'>
             <div id='project1'>
               <h3>Amiibo API</h3>
             </div>
           </a>
+          <p>Application manipulating API data using only JavaScript.</p>
         </div>
-        <div class="col-4 col2">
 
+        <div class="col-4 col2">
           <a id='project' href="https://rmantlo.github.io/TutorialWebpage/1-jswebsite/0-jsinfowebpage.html"
             target='blank'>
             <div id='project2'>
               <h3>JavaScript Webpage</h3>
             </div>
           </a>
+          <p>Basic HTML webpage containing informative Javascript Concepts.</p>
         </div>
 
         <div class="col-4 col3">
-
           <a id='project' href="https://codepen.io/rmantlo/pen/PLGJOz" target='blank'>
             <div id='project3'>
               <h3>CSS Creature</h3>
             </div>
           </a>
+          <p>First coding project, using CSS to manipulate HTML.</p>
         </div>
 
       </div>
@@ -84,35 +86,44 @@
   <!--About-->
   <section class='about' id='about'>
     <h1>About</h1>
-    <div class='sidePic'>
-      <img class='selfie' src='assets/img/self.jpg' alt="Self Portrait" />
-      <div class='proLinks'>
-        <p><a href='https://www.linkedin.com/in/rebekah-mantlo-b17600116/' target='blank'><img src='assets/img/linkedin.png' alt='Linkedin' /></a></p>
-        <p><a href='https://github.com/rmantlo' target='blank'><img id='githublogo' src="assets/img/githublogo.png" alt='GitHub' /></a></p>
-        <p><a href='assets/resume.rtf' target='blank'><img src="assets/img/resumeimage.png" alt='Resume' /></a></p>
+    <div class='totalAbout'>
+      <div class='sidePic'>
+        <img class='selfie' src='assets/img/self.jpg' alt="Self Portrait" />
+        <div class='proLinks'>
+          <a href='https://www.linkedin.com/in/rebekah-mantlo-b17600116/' target='blank'><img
+                src='assets/img/linkedin.png' alt='Linkedin' /></a>
+                <br/>
+          <a href='https://github.com/rmantlo' target='blank'><img id='githublogo' src="assets/img/githublogo.png"
+                alt='GitHub' /></a>
+                <br/>
+          <a href='assets/resume.rtf' target='blank'><img src="assets/img/resumeimage.png" alt='Resume' /></a>
+        </div>
+      </div>
+      <div class='aboutInfo'>
+
+        <p>Indiana raised, Indiana University Bloomington graduate. Studied for and obtained a bachelor's in Biology
+          with
+          a minor is Chemistry. Participated in after hours clubs and held formal head positions, such as Sectretary,
+          Treasurer, and President of the IU J.A.C.C. After graduation, I spend a year gaining experience and working in
+          a
+          QA lab for Heritage Environmental, before moving on to work in sales to gain experience working with people.
+        </p>
+        <p>Currently attending 1150 Academy in Fishers, Indiana, studying JavaScript. After studying in STEM fields and
+          working in customer service, I realized that I wasn't working in a field that interested me, and decided to
+          take time to figure out what did. Software development and design was something that caught my attention, as
+          well as
+          still allowed me to work along side the STEM fields I originally loved.</p>
+        <hr>
+
+        <div class='logos'>
+          <img id='htmlcss' src='assets/img/HTML5CSS3Logos.svg' alt='HTML/CSS' />
+          <img src='assets/img/javascript-logo.png' alt='JavaScript' />
+          <img src='assets/img/nodejs-1-logo.png' alt='NodeJS' />
+          <img src='assets/img/gitlogo.png' alt='Git' />
+          <!--Eventually add react and angular-->
+        </div>
       </div>
     </div>
-    <div class='aboutInfo'>
-
-      <p>Indiana raised, Indiana University Bloomington graduate. Studied for and obtained a bachelor's in Biology with
-        a minor is Chemistry. Participated in after hours clubs and held formal head positions, such as Sectretary,
-        Treasurer, and President of the IU J.A.C.C. After graduation, I spend a year gaining experience and working in a
-        QA lab for Heritage Environmental, before moving on to work in sales to gain experience working with people.</p>
-      <p>Currently attending 1150 Academy in Fishers, Indiana, studying JavaScript. After studying in STEM fields and
-        working in customer service, I realized that I wasn't working in a field that interested me, and decided to
-        take time to figure out what did. Software development and design was something that caught my attention, as
-        well as
-        still allowed me to work along side the STEM fields I originally loved.</p>
-      <hr>
-
-      <div class='logos'>
-        <img id='htmlcss' src='assets/img/HTML5CSS3Logos.svg' alt='HTML/CSS' />
-        <img src='assets/img/javascript-logo.png' alt='JavaScript' />
-        <img src='assets/img/nodejs-1-logo.png' alt='NodeJS' />
-        <img src='assets/img/gitlogo.png' alt='Git' />
-      </div>
-    </div>
-
   </section>
   <!--Footer for looks-->
   <section class='footer'>
@@ -135,7 +146,7 @@
           <br>
           <br>
           <h2 class="text-center text-uppercase">Contact Me</h2>
-          <div class="row">
+          <div class="row-contact">
             <div class="col-12">
               <form action="https://formspree.io/rebekahmantlo@gmail.com" method="POST">
                 <div class="control-group">

@@ -1,47 +1,54 @@
 .about{
     background: var(--white);
-    margin:0;
-    
+    margin:0 0 30px 0;
     position: relative;
-    overflow:auto;
+    
     
 }
 .about h1{
     text-align: center;
-    margin:50px;
+    margin:50px 0;
     font-family: var(--font-two);
 }
+.totalAbout{
+    display: flex;
+    flex-direction: row;
+}
 .sidePic{
-    width:40%;
+    max-width:40%;
     float: left;
     
 }
 .selfie{
-    width:300px;
+    width: 30vw;
+    max-width:300px;
     height:auto;
-    margin:0px 0px 100px 100px;
     border:5px solid var(--yellow);
     float:left;
+    
 }
 
 .proLinks{
-    text-align: center;
     margin: 0;
     float:left;
+    
 }
 .proLinks img{
-    width: 100px;
-    float:left;
-    padding: 0 0 0 20px;
+    width:10vw;
+    max-width: 100px;
+    display: block;
+    margin: auto auto;
+    
+    
 }
 #githublogo{
-    width:80px;
-    padding: 0 0 15px 40px;
+    width:6vw;
+    max-width:60px;
 }
 
 .aboutInfo{
-    width: 60%;
-    float:right;
+    max-width: 60%;
+    float:left;
     
 }
 .aboutInfo h3{
@@ -57,7 +64,6 @@
 }
 .logos {
     text-align: center;
-    
 }
 .logos img{
     height: 50px;

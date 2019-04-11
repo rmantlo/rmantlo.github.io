@@ -1,3 +1,6 @@
+.navbar {
+    width:100vw;
+}
 #navbarNav{
     font-family: var(--font-two);
     
